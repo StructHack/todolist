@@ -1,0 +1,43 @@
+.list-items{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border:1px solid #eee;
+	border-radius: 5px;
+	margin: 0.7em 0em;
+	padding:0 0.5em;
+	background-color: rgb(242, 245, 250);
+	line-height: 0.7em;
+}
+
+
+.list-items-buttons{
+	margin-left: auto;
+}
+
+.list-items-buttons span{
+	margin-right: 0.5em;
+}
+
+.list-items-buttons span i{
+	font-size: 2em; 
+}
+
+.list-items-buttons span:first-child i{
+	color: rgb(5, 245, 149);
+	border-radius: 50%;
+	background-color: white;
+	cursor: pointer;
+}
+
+.list-items-buttons span:last-child i{
+	color: red;
+	border-radius: 50%;
+	background-color: white;
+	cursor: pointer;
+}
+
+.expired{
+	color:red;
+}

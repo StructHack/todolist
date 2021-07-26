@@ -1,0 +1,53 @@
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	
+	background-color: rgb(5, 245, 149);
+	color: white;
+
+	padding: 0em 1em;
+}
+
+.navbar .hamburger i{
+	font-size: 1.8em;
+}
+
+.navbar .hamburger{
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.navigation-menu{
+	margin:0 ;
+	padding: 0;
+	position: fixed;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	text-align: center;
+}
+
+.navigation-menu a{
+	text-decoration: none;
+	width: 100%;
+	padding: 0.5em;
+	color: white;
+	display: block;
+}
+.navigation-menu a:hover{
+	color: rgb(5, 245, 149);
+	background-color: black;
+}
+
+.navigation-menu li{
+	list-style-type: none;
+}
+
+.navigation-menu li{
+	list-style-type: none;
+}
+
+.hide-navigation-menu{
+	display: none;
+}

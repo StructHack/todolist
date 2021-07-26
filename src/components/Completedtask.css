@@ -1,0 +1,8 @@
+.list-completed-items-buttons{
+	margin-left: auto
+}
+
+.list-completed-items-buttons i{
+	font-size: 2em;
+	color: rgb(5, 245, 149);
+}

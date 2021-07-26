@@ -1,0 +1,61 @@
+
+
+.hide-onclick{
+	display: none;
+}
+
+.add-items-button{
+	position: fixed;
+	bottom: 2em;
+	right: 1em;
+	color: rgb(50, 123, 168);
+}
+
+.add-items-button i{
+	font-size: 3em;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: transform 350ms;
+}
+
+.add-items-button i:hover{
+	transform: scale(1.1);
+}
+
+
+.add-items-form{
+	position: fixed;
+	inset:0;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	text-align: center;
+	animation-name: example;
+	animation-timing-function: ease-in-out;
+	animation-duration: 350ms;
+}
+
+@keyframes example{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.add-items-form input{
+	border:none;
+	padding: 2em;
+	width: 80%;
+	background-color: rgb(242, 245, 250);
+	border-radius: 5px;
+	margin-top: 3em;
+
+}
+
+.add-items-form button{
+	border: none;
+	margin-top: 2em;
+	padding: 1em 3em;
+	border-radius: 5px;
+}
